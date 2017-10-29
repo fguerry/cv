@@ -8,6 +8,8 @@
 
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
 
 // Apply the application plugin to add support for building an application
 apply plugin: 'application'
@@ -20,13 +22,12 @@ repositories {
 }
 
 dependencies {
-    // The production code uses Guava
-    compile 'com.google.guava:guava:20.0'
-
+    compile 'com.metsci.ext.com.kitfox.svg:svg-salamander:0.1.19'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.9.2'
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'
 }
 
 // Define the main class for the application
-mainClassName = 'App'
+mainClassName = 'fr.fguerry.cv.CvMain'
 

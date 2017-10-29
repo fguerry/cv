@@ -1,0 +1,32 @@
+{
+	"title":"CV François Guerry",
+	"blocks":[
+		{
+			"type":"header"
+		},
+		{
+			"type":"section",
+			"title":"Expériences Professionnelles",
+			"blocks":[
+				{
+					"type":"line",
+					"title":"Depuis avril 2008",
+					"subTitle":"Ingénieur d'études à Néo-Soft (Toulouse 31)",
+					"content":"Mission à Anyware Technologies\nProjet interne R&D 'platform' : gestion professionnelle et grand public de flottes de matériels mobiles. Architecture et mise en place de solutions techniques pour la haute disponibilité et le traitement de gros volumes (développement, intégration, déploiement).\nContexte : Java/J2EE – Jetty – Oracle/MySQL – Eclipse"
+				}
+			]
+		},
+		{
+			"type":"section",
+			"title":"Compétences"
+		},
+		{
+			"type":"section",
+			"title":"Études et Formation"
+		},
+		{
+			"type":"section",
+			"title":"Loisirs"
+		}
+	]
+}
